@@ -4,6 +4,13 @@
 
 > 🇧🇷 Portal de acompanhamento para uma mentoria de donos de clínica: vendas, captação de contatos, custo por hora, metas e auditoria — substituindo planilhas compartilhadas. Interface em português.
 
+| | |
+|---|---|
+| **Status** | In production |
+| **Usage** | ~100 mentees and 5 staff |
+| **Impact** | The team used to spend days every month checking whether each mentee had filled in the spreadsheet, and filled it in correctly; that is now visible on a dashboard |
+| **Build time** | Core ready in ~2 weeks (traditional estimate: 3–4 months); launched after 3 months of feedback rounds |
+
 ## What it does
 
 **For mentees (and their staff)**
@@ -51,6 +58,10 @@ pnpm qa     # typecheck + tests + production build
 ## Stack
 
 Next.js 14 · TypeScript · Prisma · MySQL · NextAuth · Zod · Tailwind CSS · Recharts · ExcelJS · Vitest · OpenAI API
+
+## How it was built
+
+Built with AI coding agents (Claude Code and OpenAI Codex) writing the code. My part was mapping the old spreadsheets and the team's routine, specifying every screen and rule, reviewing the generated code, keeping the test suite and quality gate green, and deploying. Traditional estimates are my own ballpark for one developer writing it by hand.
 
 ---
 
