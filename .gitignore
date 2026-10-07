@@ -1,0 +1,29 @@
+node_modules
+.next
+.pnpm-store
+.edge-shot-*
+.edge-ui-*
+.env
+.env.local
+.env.production
+dist
+coverage
+*.log
+*.tsbuildinfo
+downloaded_google_sheet*.xlsx
+sheet_analysis
+preview*.png
+logo-dark-preview.png
+
+# Production credentials — never commit
+*-env.txt
+
+# Deployment artifacts
+*-hostinger-*.zip
+
+# Local Claude Code dev harness (machine-specific paths + local permissions)
+.claude/
+
+# Local MariaDB data / temp
+.pnpm-store/
+tsconfig.tsbuildinfo
